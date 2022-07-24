@@ -1,0 +1,62 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="fleet_vehicles.list">
+      <field name="name">fleet_vehicles list</field>
+      <field name="model">fleet_vehicles.fleet_vehicles</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="purchase_date"/>
+          <field name="mileage"/>
+          <field name="purchase_price"/>
+          <field name="model"/>
+          <field name="brand"/>
+          <field name="license_plate"/>
+          <field name="current_price"/>
+          <field name="maintenances"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="fleet_vehicles.form">
+      <field name="name">fleet_vehicles form</field>
+      <field name="model">fleet_vehicles.fleet_vehicles</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <group>
+              <field name="purchase_date"/>
+              <field name="mileage"/>
+            </group>
+            <group>
+              <field name="purchase_price"/>
+              <field name="model"/>
+              <field name="brand"/>
+              <field name="license_plate"/>
+            </group>
+            <group>
+              <field name="current_price"/>
+              <field name="maintenances"/>
+            </group>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="fleet_vehicles.action_window">
+      <field name="name">Fleet Vehicles</field>
+      <field name="res_model">fleet_vehicles.fleet_vehicles</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Fleet Vehicles" id="fleet_vehicles.menu_root"/>
+
+    <menuitem
+            name="Vehicles"
+            id="fleet_vehicles.vehicles"
+            parent="fleet_vehicles.menu_root"
+            action="fleet_vehicles.action_window"
+            sequence="1"
+    />
+
+  </data>
+</odoo>

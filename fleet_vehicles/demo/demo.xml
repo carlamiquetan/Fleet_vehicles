@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+          <record id="vehicle0" model="fleet_vehicles.fleet_vehicles">
+            <field name="purchase_date">1993-05-18</field>
+            <field name="mileage">0</field>
+            <field name="purchase_price">10000</field>
+            <field name="model">600</field>
+            <field name="brand">Fiat</field>
+            <field name="license_plate">abc123</field>
+          </record>
+        <record id="vehicle01" model="fleet_vehicles.fleet_vehicles">
+            <field name="purchase_date">1999-06-28</field>
+            <field name="mileage">100</field>
+            <field name="purchase_price">200000</field>
+            <field name="model">Suran</field>
+            <field name="brand">Volkswagen</field>
+            <field name="license_plate">abb134</field>
+          </record>
+    </data>
+</odoo>

@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_fleet_vehicles_fleet_vehicles,fleet_vehicles.fleet_vehicles,model_fleet_vehicles_fleet_vehicles,,1,1,1,1
+access_fleet_vehicles_wizard_report,vehicles.report.wizard,model_fleet_vehicles_fleet_vehicles,,1,1,1,1

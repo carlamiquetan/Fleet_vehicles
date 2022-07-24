@@ -1,0 +1,201 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_vehicles
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-24 00:54+0000\n"
+"PO-Revision-Date: 2022-07-24 00:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Brand</span>"
+msgstr "<span>Marca</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Current Price</span>"
+msgstr "<span>Precio actual</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>License Plate</span>"
+msgstr "<span>Matricula</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Maintenances</span>"
+msgstr "<span>Cantidad de mantenimientos</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Mileage</span>"
+msgstr "<span>Kilometraje</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Model</span>"
+msgstr "<span>Modelo</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Purchase Date</span>"
+msgstr "<span>Fecha de Compra</span>"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "<span>Purchase Price</span>"
+msgstr "<span>Precio de compra</span>"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__brand
+msgid "Brand"
+msgstr "Marca"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__create_uid
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__create_date
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__current_price
+msgid "Current Price in USD"
+msgstr "Precio actual en USD"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__display_name
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: fleet_vehicles
+#: model:ir.actions.act_window,name:fleet_vehicles.action_window
+#: model:ir.ui.menu,name:fleet_vehicles.menu_root
+msgid "Fleet Vehicles"
+msgstr "Flota de vehiculos"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__purchase_date_from
+msgid "From"
+msgstr "Desde"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_wizard_form
+msgid "Generate"
+msgstr "Generar"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__id
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles____last_update
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard____last_update
+msgid "Last Modified on"
+msgstr "Ultima vez modificado en"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__write_uid
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Ultima vez actualizado por"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__write_date
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "Ultima vez actualizado en"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__license_plate
+msgid "License Plate"
+msgstr "Matrícula"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__maintenances
+msgid "Maintenances"
+msgstr " Cantidad de mantenimientos"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__mileage
+msgid "Mileage"
+msgstr "Kilometraje"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__purchase_date
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__purchase_price
+msgid "Purchase Price in USD"
+msgstr "Precio de compra"
+
+#. module: fleet_vehicles
+#: model:ir.actions.act_window,name:fleet_vehicles.action_wizard_report_vehicles
+#: model:ir.ui.menu,name:fleet_vehicles.report
+msgid "Report"
+msgstr "Reporte"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_vehicles_report_wizard__purchase_date_to
+msgid "To"
+msgstr "Hasta"
+
+#. module: fleet_vehicles
+#: model:ir.model,name:fleet_vehicles.model_vehicles_report_wizard
+msgid "Used for report - Vehicles by purchase date"
+msgstr "Usado para el reporte 'vehiculos por fecha de compra'"
+
+#. module: fleet_vehicles
+#: model:ir.model.fields,field_description:fleet_vehicles.field_fleet_vehicles_fleet_vehicles__model
+msgid "Vehicle Model"
+msgstr "Modelo de vehiculo"
+
+#. module: fleet_vehicles
+#: model:ir.model,name:fleet_vehicles.model_fleet_vehicles_fleet_vehicles
+msgid "Vehicle in a fleet of vehicles"
+msgstr "Vehiculo de una flota de vehiculos"
+
+#. module: fleet_vehicles
+#: model:ir.actions.report,name:fleet_vehicles.action_report_vehicles
+#: model:ir.ui.menu,name:fleet_vehicles.vehicles
+msgid "Vehicles"
+msgstr "Vehiculos"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "Vehicles Purchased between"
+msgstr "Vehiculos comprados entre"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_wizard_form
+msgid "Vehicles by purchase date"
+msgstr "vehiculos por fecha de compra"
+
+#. module: fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet_vehicles.report_vehicle
+msgid "and"
+msgstr "y"

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="report_vehicle">
+        <t t-call="web.html_container">
+            <t t-call="web.internal_layout">
+                <div class="page">
+                    <h2>Vehicles Purchased between
+                        <t t-esc="form['purchase_date_from']"/>
+                        and <t t-esc="form['purchase_date_to']"/>
+                    </h2>
+                    <br/>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-left">
+                                    <span>Purchase Date</span>
+                                </th>
+                                <th class="text-left">
+                                    <span>Mileage</span>
+                                </th>
+                                 <th class="text-left">
+                                    <span>Purchase Price</span>
+                                </th>
+                                 <th class="text-left">
+                                    <span>Model</span>
+                                </th>
+                                 <th class="text-left">
+                                    <span>Brand</span>
+                                </th>
+                                 <th class="text-left">
+                                    <span>License Plate</span>
+                                </th>
+                                <th class="text-left">
+                                    <span>Current Price</span>
+                                </th>
+                                <th class="text-left">
+                                    <span>Maintenances</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <t t-foreach="vehicles" t-as="vehicle">
+                            <tr>
+                                <td>
+                                    <t t-esc="vehicle['purchase_date']"/>
+                                </td>
+                               <td>
+                                    <t t-esc="vehicle['mileage']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['purchase_price']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['model']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['brand']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['license_plate']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['current_price']"/>
+                                </td>
+                                <td>
+                                    <t t-esc="vehicle['maintenances']"/>
+                                </td>
+                            </tr>
+                        </t>
+                    </table>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,45 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="fleet_vehicles.report_wizard_form">
+            <field name="name">fleet_vehicles report wizard form view</field>
+            <field name="model">vehicles.report.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Vehicles by purchase date">
+                    <sheet>
+                        <group>
+                            <field name="purchase_date_from"/>
+                            <field name="purchase_date_to"/>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button
+                            string="Generate"
+                            type="object"
+                            name="generate_report"
+                            class="btn-primary"
+                        />
+                        <button
+                            string="Cancel"
+                            class="btn-default"
+                            special="cancel"
+                        />
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <act_window
+            id="action_wizard_report_vehicles"
+            name="Report"
+            res_model="vehicles.report.wizard"
+            view_mode="form"
+            target="new"
+        />
+        <menuitem
+            name="Report"
+            id="fleet_vehicles.report"
+            parent="fleet_vehicles.menu_root"
+            action="action_wizard_report_vehicles"
+            sequence="2"
+        />
+    </data>
+</odoo>
